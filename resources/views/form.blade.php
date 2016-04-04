@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2>Buat Inventaris Baru</h2>
-                    <form class="form-horizontal">
+                    <form method="post" class="form-horizontal" action="{{route('inventory.create')}}">
                         <div class="form-group">
                             <label for="inputCode" class="col-md-2">Kode Barang</label>
                             <div class="col-md-10">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                <button type="submit" value="Submit" class="btn btn-primary">Simpan</button>
                             </div>
                         </div>
                     </form>

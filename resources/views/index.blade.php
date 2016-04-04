@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Blog</title>
+        <title>Inventory Management</title>
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" >
         <link rel="stylesheet" href="{{asset('assets/css/starter-template.css')}}" >
     </head>
@@ -41,11 +41,11 @@
                         <tbody>
                             <tr>
                                 <td>1.</td>
-                                <td><a href="{{route('inventory.detail',[1])}}">ASSET-0001</a></td>
-                                <td>Meja Kerja</td>
-                                <td>30</td>
-                                <td>2016-03-20</td>
-                                <td>2016-03-20</td>
+                                <td>AS-001<a href="{{route('inventory.detail',[1])}}"></a></td>
+                                <td>Meja Belajar</td>
+                                <td>13</td>
+                                <td>2016-03-24 18:58:09</td>
+                                <td>2016-03-24 18:58:09</td>
                                 <td>
                                     <a href="#"><button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i> Edit</button></a>
                                     <a href="#"><button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Delete</button></a>
@@ -53,11 +53,11 @@
                             </tr>
                             <tr>
                                 <td>2.</td>
-                                <td><a href="{{route('inventory.detail',[2])}}">ASSET-0002</a></td>
-                                <td>Kursi Kerja</td>
-                                <td>30</td>
-                                <td>2016-03-20</td>
-                                <td>2016-03-20</td>
+                                <td>AS-002<a href="{{route('inventory.detail',[2])}}"></a></td>
+                                <td>Kursi Belajar</td>
+                                <td>13</td>
+                                <td>2016-03-24 18:59:17</td>
+                                <td>2016-03-24 18:59:17</td>
                                 <td>
                                     <a href="#"><button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i> Edit</button></a>
                                     <a href="#"><button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Delete</button></a>
@@ -65,40 +65,17 @@
                             </tr>
                             <tr>
                                 <td>3.</td>
-                                <td><a href="{{route('inventory.detail',[3])}}">ASSET-0003</a></td>
-                                <td>Lemari Buku</td>
+                                <td>AS-003<a href="{{route('inventory.detail',[3])}}"></a></td>
+                                <td>Komputer</td>
                                 <td>5</td>
-                                <td>2016-03-20</td>
-                                <td>2016-03-20</td>
+                                <td>2016-03-24 190:05:39</td>
+                                <td>2016-03-24 190:05:39</td>
                                 <td>
                                     <a href="#"><button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i> Edit</button></a>
                                     <a href="#"><button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Delete</button></a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>4.</td>
-                                <td><a href="{{route('inventory.detail',[4])}}">ASSET-0004</a></td>
-                                <td>Router</td>
-                                <td>5</td>
-                                <td>2016-03-20</td>
-                                <td>2016-03-20</td>
-                                <td>
-                                    <a href="#"><button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i> Edit</button></a>
-                                    <a href="#"><button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Delete</button></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5.</td>
-                                <td><a href="{{route('inventory.detail',[5])}}">ASSET-0005</a></td>
-                                <td>Sofa Panjang</td>
-                                <td>3</td>
-                                <td>2016-03-20</td>
-                                <td>2016-03-20</td>
-                                <td>
-                                    <a href="#"><button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i> Edit</button></a>
-                                    <a href="#"><button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Delete</button></a>
-                                </td>
-                            </tr>
+    
                         </tbody>
                     </table>
                 </div>

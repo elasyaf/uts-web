@@ -28,4 +28,13 @@ class InventoryController extends Controller
     {
         return response()->view('detail');
     }
+     public function create(Request $request)
+    {
+        $this->inventory->code = $request->code;
+        $this->inventory->name = $request->name;
+        $this->inventory->qty = $request->qty;
+        $this->inventory->save();
+
+        return redirect()->route('inventory.index');
+    }
 }
